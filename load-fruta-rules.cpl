@@ -1,0 +1,7 @@
+(defrule my-rule13 (product (category fruta) (name ?name)) =>(printout t "Fruta disponible: " ?name crlf))
+
+(defrule my-rule51 (product (color amarillo) (name ?name)) =>(printout t "Fruta de color amrillo: " ?name crlf))
+(defrule my-rule52 (product (color morado) (name ?name)) =>(printout t "Fruta de color morada: " ?name crlf))
+(defrule my-rule53 (product (color verde) (name ?name)) =>(printout t "Fruta de color verde: " ?name crlf))
+
+(defrule my-rule1 (product (category fruta) (price ?price)) =>(printout t "precio : " ?price crlf))

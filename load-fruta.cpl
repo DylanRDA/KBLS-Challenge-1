@@ -1,0 +1,21 @@
+(deftemplate product
+  (slot color)
+  (slot name)
+  (slot category)
+  (slot price)
+)
+
+(deffacts products 
+        (product (name "mango") (category fruta) (color amarillo) (price 9.99))
+        (product (name "uvas") (category fruta) (color morado) (price 39.99))
+        (product (name "limon") (category fruta) (color verde) (price 41.99))
+        (product (name "piña") (category fruta) (color amarillo) (price 38.99))
+        
+)
+
+
+
+
+
+
+

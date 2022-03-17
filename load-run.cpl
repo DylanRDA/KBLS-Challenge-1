@@ -1,0 +1,3 @@
+(load "load-fruta.clp") 
+(load "load-fruta-rules.clp")
+
